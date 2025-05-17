@@ -373,16 +373,12 @@ html {
 }
 
 .menu-icon {
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
+  cursor: pointer;
   width: 30px;
   height: 25px;
   justify-content: space-between;
-  cursor: pointer;
-  z-index: 10001;
 }
 
 .menu {

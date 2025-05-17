@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     if (whatsIcon) {
       whatsIcon.addEventListener("click", function () {
-        window.open("https://wa.me/5582996117039", "_blank"); 
+        window.open("https://wa.me/5582996117038", "_blank"); 
       });
     }
   });
