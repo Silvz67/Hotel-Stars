@@ -10,7 +10,8 @@
   background: linear-gradient(90deg, rgba(0, 31, 63, 0.7), rgba(0, 51, 102, 0.7));
   backdrop-filter: blur(6px);
   color: #fff;
-  padding: 1px 0;
+  padding: 10px 20px;
+  height: auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   position: sticky;
   top: 0;
