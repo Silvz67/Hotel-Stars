@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="hotel.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Stars</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="name">Hotel Stars</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#quartos">Quartos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contatos">Contato</a></li> 
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="secao-texto">
+    <h2>Bem-vindo ao Hotel Stars</h2>
+    <p>Desfrute de uma experiência inesquecível de hospedagem com conforto, segurança e atendimento de excelência. Seja para negócios ou lazer, o Hotel Stars é a sua melhor escolha.</p>
+  </section>
+
+  <section id="sobre" class="secao-texto">
+    <h2>Sobre Nós</h2>
+    <p>O Hotel Stars é referência em hospitalidade, oferecendo serviços de qualidade e acomodações aconchegantes. Localizado em uma área privilegiada, garantimos fácil acesso e tranquilidade para sua estadia.</p>
+  </section>
+
+  <section id="quartos" class="section-2">
+    <section class="quarto">
+      <div class="imagem-quarto">
+        <img src="imgs/cama.webp" alt="Quarto de hotel elegante">
+      </div>
+      <section class="section-3">
+        <h1 class="h1-section">Escolha sua prefêrencia de hospedagem</h1>
+      </section>
+    </section>
+
+    <div class="container">
+      <section class="section-4">
+        <h1 class="h1-4">Básica</h1>
+        <p>Perfeito para quem busca economia e conforto</p>
+        <ul class="ul-1">
+          <li>Quarto simples</li>
+          <li>Wi-Fi grátis</li>
+          <li>Café da manhã</li>
+        </ul>
+        <div class="acoes">
+          <button onclick="confirmarReserva()" class="botao-reserva">Reserva</button>
+        </div>
+      </section>
+
+      <section class="section-5">
+        <h1 class="h1-4">Conforto</h1>
+        <p>Mais espaço e comodidades para sua estadia</p>
+        <ul class="ul-2">
+          <li>Quarto com ar-condicionado</li>
+          <li>Wi-Fi grátis</li>
+          <li>Café da manhã incluso</li>
+        </ul>
+        <div class="acoes">
+          <button onclick="confirmarReserva()" class="botao-reserva">Reserva</button>
+        </div>
+      </section>
+
+      <section class="section-6">
+        <h1 class="h1-4">Luxo</h1>
+        <p>Para quem quer o melhor do conforto e exclusividade</p>
+        <ul class="ul-3">
+          <li>Suíte premium com vista</li>
+          <li>Wi-Fi ultra rápido</li>
+          <li>Café da manhã gourmet</li>
+        </ul>
+        <div class="acoes">
+          <button onclick="confirmarReserva()" class="botao-reserva">Reserva</button>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section id="servicos" class="secao-texto">
+    <h2>Nossos Serviços</h2>
+    <p>Oferecemos recepção 24h, café da manhã incluso, internet de alta velocidade, lavanderia, estacionamento gratuito e muito mais para tornar sua hospedagem completa.</p>
+  </section>
+
+  <footer class="footer-1">
+    <div class="container-footer">
+      <div class="Contatos" id="contatos">
+        <h3 class="h3-div1">Contato</h3>
+        <p class="p1-div1">Rua Manoel Martins, 17, Capela, AL</p>
+        <p class="p1-div1">(82) 99611-7038</p>
+        <p class="p1-div1">silvaartur661@gmail.com</p>
+      </div>
+
+      <div class="links">
+        <nav>
+          <h3 class="h3-div2">Links úteis</h3>
+          <p class="p1-div2">Início</p>
+          <p class="p1-div2">Serviços</p>
+        </nav>
+      </div>
+
+      <div class="redes">
+        <h3 class="h3-div3">Redes sociais</h3>
+        <img class="insta" src="imgs/insta.png" alt="Instagram">
+        <img class="whats" src="imgs/whats.png" alt="WhatsApp">
+      </div>
+    </div>
+    <p class="copyright">
+      © 2025 Hotel Stars. Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <button id="btnTopo">↑ Topo</button>
+
+  <script>
+    function confirmarReserva() {
+      alert("Reserva iniciada! Logo entraremos em contato");
+    }
+  </script>
+
+  <script src="hotel.js"></script>
+</body>
+
+</html>
